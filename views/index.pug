@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Services]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact Us]
+
+        section#introSection
+            div Welcome to Mohit's Dance Academy
+            div.small Eat Sleep Dance Repeat
+
+        section#missionSection
+            h1 Our &nbsp; Mission
+            div.card 
+                h3 Dance Perfection
+                
+            div.card 
+                h3 Dance the way you like
+
+            div.card 
+                h3 Expert Teaching
+
+        section#sponsorsSection
+            h1 Our &nbsp; Sponsors
+
+        footer#footer
+            | All Copyright &copy; Reserved
+
+        script
+            include ../static/script.js

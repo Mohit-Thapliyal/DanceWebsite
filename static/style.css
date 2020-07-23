@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Ranchers&display=swap");
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#navbar{
+    padding: 12px 0;
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Ranchers', cursive; */
+    background-color: darkslategrey;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 1rem 1.2rem;
+    color: white;
+    font-size: 1.65rem;
+}
+
+#navbar li a:hover{
+    color: darksalmon;
+}
+
+#introSection{
+    color: white;
+    text-shadow: 2px 3px navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 25rem;
+    background-color: aquamarine;
+}
+
+#introSection div.small{
+    font-size: 2.2rem;
+}
+
+#missionSection{
+    height: 300px;
+    background-color: skyblue;
+}
+
+#missionSection h1{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ranchers', cursive;
+    color: darksalmon;
+    text-shadow: 2px 3px crimson;
+}
+
+@supports (-webkit-text-stroke: 1px crimson) {
+    #missionSection h1, #sponsorsSection h1 {
+      -webkit-text-stroke: 1px crimson;
+    }
+  }
+
+.card{
+    display: inline-block;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 22px;
+    height: 200px;
+}
+
+.card h3{
+    text-align: center;
+    font-family: cursive;
+    margin: 8px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgba(27, 63, 63, 0.877);
+}
+
+#sponsorsSection h1{
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Ranchers', cursive;
+    color: darksalmon;
+    text-shadow: 2px 3px crimson;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
